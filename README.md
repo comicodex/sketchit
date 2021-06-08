@@ -2,7 +2,7 @@
 A fun app to turn images or photos into awesome pencil sketch masterpieces using the openCv library
 
 ## Screenshot 📷
-[<img src="static\img\sketchitScreen.JPG" width=300/>](static\img\sketchitScreen.JPG)
+[<img src="static\img\sketchitScreen.JPG" width=400/>](static\img\sketchitScreen.JPG)
 
 ## Technologies used 🛠
 [<img src="static\img\opencvlogo.png" width=50/>](static\img\opencvlogo.png)
