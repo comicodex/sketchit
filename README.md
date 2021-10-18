@@ -5,9 +5,9 @@ A fun app to turn images or photos into awesome pencil sketch masterpieces using
 [<img src="static\img\sketchitScreen.JPG" width=400/>](static\img\sketchitScreen.JPG)
 
 ### Technologies used 🛠
-[<img src="static\img\opencvlogo.png" width=50/>](static\img\opencvlogo.png)
+[<img src="static\img\opencvlogo.png" width=80/>](static\img\opencvlogo.png)
 
-[<img src="static\img\streamlit.jpg" width=50/>](static\img\streamlit.jpg)
+[<img src="static\img\streamlit.jpg" width=80/>](static\img\streamlit.jpg)
 
 ### Set up ⚙
 Please refer to the _requirements.txt_ file
