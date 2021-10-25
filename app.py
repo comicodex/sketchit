@@ -32,7 +32,7 @@ else:
 
 
 st.sidebar.subheader("About")
-st.sidebar.write("Sketchit converts any image into a pencil-sketch drawing using Computer Vision")
+st.sidebar.write("Sketchit converts any image into a beautiful pencil-sketch drawing using Computer Vision and the openCV library")
 
 st.sidebar.image("static\img\sketch.jpeg", width=200)
 
