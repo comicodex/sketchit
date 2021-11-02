@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 mkdir -p ~/.streamlit/
 
 echo "\
@@ -7,3 +8,14 @@ port = $PORT\n\
 enableCORS = false\n\
 \n\
 " > ~/.streamlit/config.toml
+=======
+mkdir -p ~/.streamlit/
+
+echo "\
+[server]\n\
+headless = true\n\
+port = $PORT\n\
+enableCORS = false\n\
+\n\
+" > ~/.streamlit/config.toml
+>>>>>>> Stashed changes
