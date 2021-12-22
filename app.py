@@ -15,12 +15,12 @@ def get_img(img):
 
 
 st.title("Sketchit")
-st.write("Turn your images into beautiful pencil-sketch masterpieces")
+st.write("Turn your images into captivating pencil-sketch masterpieces")
 
-img_file = st.sidebar.file_uploader("Upload image", type=["jpg", "jpeg", "png", "gif"])
+img_file = st.sidebar.file_uploader("Upload image here", type=["jpg", "jpeg", "png", "gif"])
 
 if img_file is None:
-    st.write("_Instructions:_ please upload image on the left-side menu")
+    st.write("_Instructions:_ please upload your image on the left-side menu")
 else:
     input_img = Image.open(img_file)
     final_sketch = get_img(np.array(input_img))
@@ -29,11 +29,10 @@ else:
     st.write("**Pencil Sketch**")
     st.image(final_sketch, use_column_width=True)
 
+st.write("&copy;comicodex2021 - All rights reserved.")
 
 
-st.sidebar.subheader("About")
-st.sidebar.write("Sketchit converts any image into a beautiful pencil-sketch drawing using Computer Vision and the openCV library")
+st.sidebar.write("Converting your images into pencil-sketches using Computer Vision")
 
-st.sidebar.image("static\img\sketch.jpeg", width=200)
+st.sidebar.image("static\img\sketch.jpeg", width=80, use_column_width=True)
 
-st.sidebar.write("&copy;comicodex2021 - All rights reserved.")
